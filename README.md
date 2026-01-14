@@ -35,6 +35,7 @@ SNLab CodeCopilot is an AI-powered development platform designed specifically fo
 - **Script Reviewer** - Multi-AI code review orchestration
 - **UI Builder** - ServiceNow UI component generator
 - **Performance Profiler** - Script optimization analysis
+- **Design System & UI/UX Manager** - Service Portal custom widget generator
 
 ### 📊 Enterprise Features
 - Security scanning
