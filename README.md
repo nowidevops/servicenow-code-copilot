@@ -2,9 +2,9 @@
 
 **Agentic SDLC automation platform for ServiceNow developers and delivery teams**
 
-[\![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://servicenow-code-copilot.web.app)
-[\![Platform](https://img.shields.io/badge/Platform-ServiceNow-blue)](https://www.servicenow.com)
-[\![AI Powered](https://img.shields.io/badge/AI-Multi--Model-purple)](https://servicenow-code-copilot.web.app)
+[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=for-the-badge)](https://servicenow-code-copilot.web.app)
+[![Platform](https://img.shields.io/badge/Platform-ServiceNow-blue?style=for-the-badge)](https://www.servicenow.com)
+[![AI Powered](https://img.shields.io/badge/AI-Multi--Model-purple?style=for-the-badge)](https://servicenow-code-copilot.web.app)
 
 ---
 
@@ -91,4 +91,3 @@ Built by **[iDevOps LLC](https://nowidevops.com)** for the ServiceNow community.
 ## 📄 License
 
 Proprietary - All rights reserved © 2026 iDevOps LLC
-
