@@ -45,9 +45,9 @@ To empower ServiceNow developers and delivery teams with cutting-edge AI tools t
 |---------|-------------|
 | **Security Scanner** | Comprehensive vulnerability detection |
 | **Performance Profiler** | Advanced optimization analysis |
-| **Conflict Detector** | Pre-deployment update set validation |
-| **Health Checker** | Instance health assessment and monitoring |
-| **Testing Framework** | Intelligent automated testing suite |
+| **Conflict Detector** | Pre-deployment update set validation `Coming Soon` |
+| **Health Checker** | Instance health assessment and monitoring `Coming Soon` |
+| **Testing Framework** | Intelligent automated testing suite `Coming Soon` |
 
 ### Team Collaboration
 
