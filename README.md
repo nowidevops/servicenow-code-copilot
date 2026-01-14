@@ -1,94 +1,63 @@
-# ⚡ SNLab CodeCopilot
+# ⚡ ServiceNow Code Copilot
 
-**Agentic SDLC automation platform for ServiceNow developers and delivery teams**
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://servicenow-code-copilot.web.app)
+[![AI Powered](https://img.shields.io/badge/AI-Powered-blue)](https://servicenow-code-copilot.web.app)
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=for-the-badge)](https://servicenow-code-copilot.web.app)
-[![AI Powered](https://img.shields.io/badge/AI-Multi--Model-purple?style=for-the-badge)](https://servicenow-code-copilot.web.app)
+> **Agentic SDLC automation platform for ServiceNow developers and delivery teams**
 
----
+Built by [iDevOps LLC](https://servicenow-code-copilot.web.app) for the ServiceNow community.
 
-## 🚀 Overview
+## 🚀 Features
 
-SNLab CodeCopilot is an AI-powered development platform designed specifically for ServiceNow professionals. It accelerates the entire software development lifecycle (SDLC) with intelligent automation, multi-model AI code generation, and enterprise-grade tooling.
+### Agentic SDLC Automation
+- **SNLab Master**: 18-phase AI-driven development lifecycle
+- **Epic Detector**: Automatic story decomposition from epics
+- **Story Pointing**: AI-assisted estimation with team calibration
+- **PRD Generator**: Product requirements document automation
 
----
+### Developer Tools
+- **AI Accelerator**: Multi-model code generation (Claude, GPT, Gemini, Grok)
+- **Script Linter**: Real-time code quality analysis
+- **Script Reviewer**: Deep code review with security scanning
+- **Catalog Builder**: ServiceNow catalog item generator
+- **Design System & UI/UX Manager**: Service Portal Custom Widget Generator
 
-## ✨ Key Features
+### Team Collaboration
+- **Collaboration Hub**: Real-time team workspace
+- **ChatOps**: AI-powered development assistant
+- **Problem Tracker**: Issue aggregation across platforms
 
-### 🤖 Multi-Model AI Code Generation
-- **Claude** (Anthropic) - Primary code generation
-- **GPT-5** (OpenAI) - Alternative generation & review
-- **Gemini** (Google) - Cross-validation
-- **Grok** (xAI) - Fast reasoning
-
-### 📋 SDLC Automation
-- Story grooming & refinement
-- UAT & ATF test generation
-- Technical approach documentation
-- Implementation code generation
-- Deployment package creation
-- Release management
-
-### 🛠️ Developer Tools
-- **Catalog Builder** - Visual ServiceNow catalog item creator
-- **Script Linter** - Code quality analysis
-- **Script Reviewer** - Multi-AI code review orchestration
-- **UI Builder** - ServiceNow UI component generator
-- **Performance Profiler** - Script optimization analysis
-- **Design System & UI/UX Manager** - Service Portal custom widget generator
-
-### 📊 Enterprise Features
-- Security scanning
-- Code review orchestration
-- Collaboration hub
-- Analytics dashboard
-- Job finder integration
-
----
-
-## 🎯 Live Demo
-
-Experience SNLab CodeCopilot: **[https://servicenow-code-copilot.web.app](https://servicenow-code-copilot.web.app)**
-
----
-
-## 📖 Documentation
-
-Documentation is available within the application under the **Docs** tab of each module.
-
----
-
-## 🔧 Supported ServiceNow Artifacts
-
+### Supported ServiceNow Artifacts
 - Business Rules
-- Client Scripts
 - Script Includes
+- Client Scripts
 - UI Actions
-- UI Policies
-- Catalog Items & Variables
-- Record Producers
-- Workflows
-- Flow Designer Actions
 - Scheduled Jobs
-- REST APIs
+- Flow Designer Actions
+- Catalog Items & Variables
+- ACLs & Security Rules
 - Service Portal Widgets
 
----
+## 📚 Documentation
 
-## 🏢 About
+Visit our [live application](https://servicenow-code-copilot.web.app) for full documentation and interactive guides.
 
-Built by **[iDevOps LLC](https://nowidevops.com)** for the ServiceNow community.
+## 🤝 Contributing
 
----
-
-## 📬 Support
-
-- **Issues**: [GitHub Issues](https://github.com/nowidevops/servicenow-code-copilot/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/nowidevops/servicenow-code-copilot/discussions)
-- **Email**: support@nowidevops.com
-
----
+We welcome contributions! Please check our [Issues](https://github.com/nowidevops/servicenow-code-copilot/issues) page.
 
 ## 📄 License
 
-Proprietary - All rights reserved © 2026 iDevOps LLC
+Proprietary - © 2026 iDevOps LLC. All rights reserved.
+
+---
+
+## ⚠️ Disclaimer
+
+**Development & Testing**: This tool is for development and testing purposes. Always review generated code before deploying to production.
+
+**Trademark Notice**: Not affiliated with, endorsed by, or sponsored by ServiceNow, Inc. ServiceNow is a registered trademark of ServiceNow, Inc.
+
+---
+
+**Built with ❤️ by [iDevOps LLC](https://servicenow-code-copilot.web.app)**
