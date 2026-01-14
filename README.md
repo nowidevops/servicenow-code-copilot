@@ -71,6 +71,7 @@ Documentation is available within the application under the **Docs** tab of each
 - Flow Designer Actions
 - Scheduled Jobs
 - REST APIs
+- Service Portal Widgets
 
 ---
 
