@@ -1,4 +1,4 @@
-# iDevOps LLC - ServiceNow Code Copilot
+# iDevOps LLC - Agentic Copilot
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://servicenow-code-copilot.web.app)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-blue)](https://servicenow-code-copilot.web.app)
@@ -134,3 +134,4 @@ We leverage the industry's most advanced AI models with intelligent fallback:
 © 2026 iDevOps LLC. All rights reserved.
 
 **Built with purpose for the ServiceNow community.**
+
