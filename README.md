@@ -1,3 +1,6 @@
+
+<img width="762" height="249" alt="gitLogo" src="https://github.com/user-attachments/assets/1d55a6cd-000c-424e-9f91-d391db246950" />
+
 # iDevOps LLC - Agentic Copilot
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://servicenow-code-copilot.web.app)
@@ -134,4 +137,5 @@ We leverage the industry's most advanced AI models with intelligent fallback:
 © 2026 iDevOps LLC. All rights reserved.
 
 **Built with purpose for the ServiceNow community.**
+
 
