@@ -1,0 +1,93 @@
+name: "💡 Feature Request"
+description: "Suggest a new capability or an improvement to an existing module."
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **This repository is public.** Leave out anything confidential — including your
+        employer's internal processes, client names, instance URLs, or proprietary code.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the pain first, not the solution. It often leads to a better fix than the one you had in mind.
+      placeholder: "I re-enter the same acceptance criteria in three modules because there's no way to carry a story across them."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like it to do?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Which area does this relate to?
+      options:
+        - "Essentials — PRD Refinement"
+        - "Essentials — Story Pointing"
+        - "Essentials — Story Analysis"
+        - "Essentials — Epic Detector"
+        - "Essentials — Meeting Time"
+        - "Essentials — Team Standup"
+        - "Essentials — Task Tracker"
+        - "Essentials — Presentation"
+        - "Essentials — Collaboration Hub"
+        - "DevOps — Lead Developer"
+        - "DevOps — AI Catalog Item Builder"
+        - "DevOps — Design System"
+        - "DevOps — UI Builder Helper"
+        - "DevOps — Code Review"
+        - "DevOps — Snippet Manager"
+        - "DevOps — ServiceNow Job Finder"
+        - "Advanced — Agentic ServiceNow Development"
+        - "Advanced — Agentic Agile Development"
+        - "Advanced — Parallel Coding"
+        - "Advanced — Script Reviewer & Deployment"
+        - "Automation — 24/7 ServiceNow Development Agents"
+        - "Automation — SDLC Master"
+        - "Automation — Automation Studio Pro"
+        - "Automation — Master Code Review"
+        - "Sign-in / Account"
+        - "Billing & Credits"
+        - "A new module"
+        - "Something else / not sure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: How do you handle this today?
+      description: Your current workaround, if any.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: How much would this help you?
+      options:
+        - "Would change how I work daily"
+        - "Would save me time occasionally"
+        - "Nice to have"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: "I searched existing issues and nobody has already requested this."
+          required: true
+        - label: "This request contains no confidential or proprietary information."
+          required: true
+        - label: "I understand feature requests are considered but not guaranteed, and no timeline is implied."
+          required: true

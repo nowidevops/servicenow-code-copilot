@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔐 Security vulnerability (do NOT open a public issue)
+    url: https://github.com/nowidevops/common-servicenow-issues/security/advisories/new
+    about: "Report suspected vulnerabilities in Agentic Copilot privately through GitHub Security Advisories. Never post exploit details, tokens, or proof-of-concept payloads in a public issue."
+  - name: 💳 Billing, account, or subscription help
+    url: https://ai.nowidevops.com
+    about: "Anything needing your account details or payment information — use the contact options on the site so your data stays private."
+  - name: 📺 Tutorials and walkthroughs
+    url: https://www.youtube.com/@agenticservicenow
+    about: "Video guides for the modules — often faster than waiting on an answer here."
+  - name: 🛠️ ServiceNow platform problems
+    url: https://support.servicenow.com
+    about: "Issues with the ServiceNow platform itself, rather than with Agentic Copilot, belong with ServiceNow Support."

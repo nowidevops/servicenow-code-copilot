@@ -1,0 +1,62 @@
+name: "❓ Question / Help"
+description: "You're stuck using the app and not sure whether it's a bug."
+title: "[Question]: "
+labels: ["question", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **This repository is public.** No passwords, API keys, instance URLs, customer data,
+        or employer-proprietary code — in text or screenshots. You don't need to post your
+        account email; we'll ask privately if we need it.
+
+        For **billing or account-specific** matters that require your personal details,
+        use the contact options at [ai.nowidevops.com](https://ai.nowidevops.com) instead of posting here.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Which module or area?
+      options:
+        - "Essentials (PRD Refinement, Story Pointing, Story Analysis, Epic Detector, …)"
+        - "DevOps (Lead Developer, Catalog Builder, Design System, Code Review, …)"
+        - "Advanced Development (Agentic Development, Parallel Coding, Script Reviewer)"
+        - "Automation (24/7 Agents, SDLC Master, Automation Studio Pro, Master Code Review)"
+        - "Sign-in / Account"
+        - "Billing & Credits"
+        - "Getting started / general usage"
+        - "Something else / not sure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried so far?
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Screenshots or extra context
+      description: Crop out anything sensitive before uploading.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: "I searched existing issues and the documentation first."
+          required: true
+        - label: "This post contains no passwords, API keys, instance URLs, customer data, or proprietary code."
+          required: true

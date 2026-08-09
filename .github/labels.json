@@ -1,0 +1,32 @@
+[
+  { "name": "bug",                   "color": "d73a4a", "description": "Something isn't working" },
+  { "name": "enhancement",           "color": "a2eeef", "description": "New feature or improvement request" },
+  { "name": "question",              "color": "d876e3", "description": "Usage question or help request" },
+
+  { "name": "needs-triage",          "color": "ededed", "description": "Received, not yet reviewed" },
+  { "name": "needs-info",            "color": "d4c5f9", "description": "Waiting on more detail from the reporter" },
+  { "name": "confirmed",             "color": "0e8a16", "description": "Reproduced by the team" },
+  { "name": "cannot-reproduce",      "color": "cfd3d7", "description": "Could not be triggered with the steps given" },
+  { "name": "in-progress",           "color": "1d76db", "description": "Being worked on" },
+  { "name": "fixed-pending-release", "color": "c2e0c6", "description": "Fixed, not yet deployed to production" },
+  { "name": "duplicate",             "color": "cfd3d7", "description": "Already reported elsewhere" },
+  { "name": "wont-fix",              "color": "ffffff", "description": "Working as designed, or out of scope" },
+  { "name": "documentation",         "color": "0075ca", "description": "Docs or help-content change" },
+
+  { "name": "severity:blocking",     "color": "b60205", "description": "Module unusable, no workaround" },
+  { "name": "severity:major",        "color": "e99695", "description": "Significant impact, painful workaround exists" },
+  { "name": "severity:minor",        "color": "fef2c0", "description": "Cosmetic or occasional" },
+
+  { "name": "area:essentials",       "color": "1f6feb", "description": "PRD Refinement, Story Pointing/Analysis, Epic Detector, Standup, Task Tracker, Collaboration Hub" },
+  { "name": "area:devops",           "color": "1f6feb", "description": "Lead Developer, Catalog Builder, Design System, UI Builder, Code Review, Snippet Manager, Job Finder" },
+  { "name": "area:advanced",         "color": "1f6feb", "description": "Agentic Development, Agentic Agile, Parallel Coding, Script Reviewer" },
+  { "name": "area:automation",       "color": "1f6feb", "description": "24/7 Agents, SDLC Master, Automation Studio Pro, Master Code Review" },
+  { "name": "area:auth",             "color": "1f6feb", "description": "Sign-in, sessions, and accounts" },
+  { "name": "area:billing",          "color": "1f6feb", "description": "Credits, plans, and payments" },
+  { "name": "area:ai-output",        "color": "1f6feb", "description": "Quality or correctness of AI-generated output" },
+  { "name": "area:ui",               "color": "1f6feb", "description": "Layout, styling, and responsiveness" },
+  { "name": "area:performance",      "color": "1f6feb", "description": "Slowness, timeouts, and hangs" },
+  { "name": "area:mobile",           "color": "1f6feb", "description": "Mobile and tablet specific" },
+
+  { "name": "good first report",     "color": "7057ff", "description": "Well-written report - a good example for others" }
+]

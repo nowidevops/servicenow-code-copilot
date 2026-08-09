@@ -1,0 +1,158 @@
+name: "🐛 Bug Report"
+description: "Something in Agentic Copilot is broken or behaves incorrectly."
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Precise steps get fixes out faster.
+
+        ⚠️ **This repository is public.** Do not post passwords, API keys, your ServiceNow
+        instance URL, real `sys_id` values, customer data, or employer-proprietary code —
+        in the text **or** in screenshots. You don't need to post your account email;
+        we'll ask for it privately if we need it.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What went wrong?
+      description: One or two sentences.
+      placeholder: "Clicking Generate in Story Pointing spins forever and no result appears."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Which module?
+      options:
+        - "Essentials — PRD Refinement"
+        - "Essentials — Story Pointing"
+        - "Essentials — Story Analysis"
+        - "Essentials — Epic Detector"
+        - "Essentials — Meeting Time"
+        - "Essentials — Team Standup"
+        - "Essentials — Task Tracker"
+        - "Essentials — Presentation"
+        - "Essentials — Collaboration Hub"
+        - "DevOps — Lead Developer"
+        - "DevOps — AI Catalog Item Builder"
+        - "DevOps — Design System"
+        - "DevOps — UI Builder Helper"
+        - "DevOps — Code Review"
+        - "DevOps — Snippet Manager"
+        - "DevOps — ServiceNow Job Finder"
+        - "Advanced — Agentic ServiceNow Development"
+        - "Advanced — Agentic Agile Development"
+        - "Advanced — Parallel Coding"
+        - "Advanced — Script Reviewer & Deployment"
+        - "Automation — 24/7 ServiceNow Development Agents"
+        - "Automation — SDLC Master"
+        - "Automation — Automation Studio Pro"
+        - "Automation — Master Code Review"
+        - "Sign-in / Account"
+        - "Billing & Credits"
+        - "Something else / not sure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How badly does it block you?
+      options:
+        - "Blocking — I can't use the module at all"
+        - "Major — there's a painful workaround"
+        - "Minor — cosmetic or occasional"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest path from opening the app to seeing the problem.
+      value: |
+        1. Go to …
+        2. Enter …
+        3. Click …
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+      description: "Include the exact error text if there was one. If you can, open your browser console (F12) and paste any red errors — check them for sensitive values first."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - Safari
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop
+        - Tablet
+        - Mobile
+    validations:
+      required: false
+
+  - type: input
+    id: when
+    attributes:
+      label: When did this happen?
+      description: "Approximate date and time with your timezone — it helps us find the matching server logs."
+      placeholder: "2026-08-09 around 14:30 EST"
+    validations:
+      required: false
+
+  - type: input
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      placeholder: "Every time / intermittently / happened once"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or extra context
+      description: "Drag images in here. Crop out anything sensitive first."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: "I searched existing issues (including closed) and this isn't a duplicate."
+          required: true
+        - label: "This report contains no passwords, API keys, instance URLs, customer data, or proprietary code — including in any screenshots."
+          required: true
+        - label: "I understand this is a public tracker and not a private support channel, and that security vulnerabilities must be reported privately instead (see SECURITY.md)."
+          required: true
