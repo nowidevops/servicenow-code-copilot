@@ -56,4 +56,4 @@ Contributions here take the form of **well-written issue reports** — see [CONT
 
 ---
 
-**Maintained by [iDevOps LLC](https://ai.nowidevops.com)** · 📺 [YouTube](https://www.youtube.com/@agenticservicenow)
+**Maintained by [iDevOps LLC](https://ai.nowidevops.com)** · 📺 [YouTube](https://www.youtube.com/@agenticmastermind)
