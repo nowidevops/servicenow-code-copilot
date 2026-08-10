@@ -1,6 +1,6 @@
-# Agentic Copilot — Issue Reporting
+# Agentic Copilot — Official Issue Tracker
 
-Report bugs, problems, and feature requests for **[Agentic Copilot](https://ai.nowidevops.com)**, the AI-powered ServiceNow development platform by iDevOps LLC.
+This is the **official issue tracker** for **[Agentic Copilot](https://ai.nowidevops.com)** — the AI-powered ServiceNow development platform by iDevOps LLC. Report bugs, problems, and feature requests here.
 
 > **This is a support tracker, not a code repository.** Agentic Copilot is commercial, closed-source software. No application source code is published here, and nothing in this repository grants any license to the product or its code.
 

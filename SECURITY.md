@@ -10,7 +10,7 @@ This repository is the **public issue tracker** for [Agentic Copilot](https://ai
 
 If you believe you have found a security flaw in Agentic Copilot (authentication bypass, data exposure between accounts, injection, privilege escalation, exposed keys, etc.):
 
-1. Use **[GitHub private vulnerability reporting](https://github.com/nowidevops/common-servicenow-issues/security/advisories/new)** — reports there are visible only to the maintainers.
+1. Use **[GitHub private vulnerability reporting](https://github.com/nowidevops/issues/security/advisories/new)** — reports there are visible only to the maintainers.
 2. Or contact iDevOps LLC through [ai.nowidevops.com](https://ai.nowidevops.com) and state that the message concerns a security issue.
 
 Please include: what you observed, the steps to reproduce it, the impact you believe it has, and the date/time of your test. Do not post proof-of-concept payloads, tokens, or captured data publicly.
