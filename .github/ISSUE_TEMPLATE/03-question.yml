@@ -25,10 +25,10 @@ body:
     attributes:
       label: Which module or area?
       options:
-        - "Essentials (PRD Refinement, Story Pointing, Story Analysis, Epic Detector, …)"
-        - "DevOps (Lead Developer, Catalog Builder, Design System, Code Review, …)"
-        - "Advanced Development (Agentic Development, Parallel Coding, Script Reviewer)"
-        - "Automation (24/7 Agents, SDLC Master, Automation Studio Pro, Master Code Review)"
+        - "Dev Modules (Pillwright Studio, Flow Click-by-Click, SP Widget Generator, Code Review, …)"
+        - "Ops Modules (Story Analysis, Epic Detector, PRD ENGINE, PRD Refinement, Story Pointing, …)"
+        - "AI Orchestration (Agentic Workflow, Master Mind)"
+        - "Mic Modules (Agentic Master Mind, Math Teacher Montessori / Kumon / Standard)"
         - "Sign-in / Account"
         - "Billing & Credits"
         - "Getting started / general usage"
